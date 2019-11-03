@@ -1,0 +1,543 @@
+@font-face {
+    font-family: 'Asap Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Asap Condensed Regular'), local('AsapCondensed-Regular'), url(https://fonts.gstatic.com/s/asapcondensed/v5/pxidypY1o9NHyXh3WvSbGSggdOeMaEw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Lucida Sans';
+    src: url('assets/fonts/LucidaSans-Italic.eot');
+    src: url('assets/fonts/LucidaSans-Italic.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/LucidaSans-Italic.woff2') format('woff2'),
+    url('assets/fonts/LucidaSans-Italic.woff') format('woff'),
+    url('assets/fonts/LucidaSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Segoe WP';
+    src: url('assets/fonts/SegoeWP-Light.eot');
+    src: url('assets/fonts/SegoeWP-Light.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeWP-Light.woff2') format('woff2'),
+    url('assets/fonts/SegoeWP-Light.woff') format('woff'),
+    url('assets/fonts/SegoeWP-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PT Sans';
+    src: url('assets/fonts/ptsans/PTSans-Regular.eot');
+    src: url('assets/fonts/ptsans/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/ptsans/PTSans-Regular.woff2') format('woff2'),
+    url('assets/fonts/ptsans/PTSans-Regular.woff') format('woff'),
+    url('assets/fonts/ptsans/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Segoe WP';
+    src: url('assets/fonts/SegoeWP-Light.eot');
+    src: url('assets/fonts/SegoeWP-Light.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeWP-Light.woff2') format('woff2'),
+    url('assets/fonts/SegoeWP-Light.woff') format('woff'),
+    url('assets/fonts/SegoeWP-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Segoe UII';
+    src: url('assets/fonts/SegoeUI-Bold.eot');
+    src: url('assets/fonts/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeUI-Bold.woff2') format('woff2'),
+    url('assets/fonts/SegoeUI-Bold.woff') format('woff'),
+    url('assets/fonts/SegoeUI-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI.eot');
+    src: url('assets/fonts/SegoeUI.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeUI.woff2') format('woff2'),
+    url('assets/fonts/SegoeUI.woff') format('woff'),
+    url('assets/fonts/SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.the {
+    color: #fff;
+    text-shadow: 1px 2px 2px black;
+    font-size: 28.08912pt;
+    align-self: center;
+    margin-bottom: 17px;
+    margin-left: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container ul li img {
+    margin-right: 8px;
+}
+#asc {
+    margin: auto;
+    padding: 0;
+}
+#threelink, #onelink, #twolink {
+    font-size: 14.04912pt;
+    
+}
+.container ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #b99403;
+    font-weight: 500;
+}
+.container ul li a:hover {
+    color: #251e01;
+}
+.container {
+    width: 453px;
+    height: 41px;
+    align-self: center;
+    background-color: #f5c506;
+    display: flex;
+    box-shadow: -4px -4px #b5b82c9d, -7px -7px rgba(161, 161, 33, 0.678);
+    margin-left: 268px;
+}
+.imgone {
+    margin-left: 150px;
+    margin-top: 25px;
+    position: absolute;
+}
+.imgtwo {
+    margin-left: 150px;
+    margin-bottom: 55px;
+    margin-top: 25px;
+}
+body {
+    width: 100%;
+}
+main {
+    width: 1300px;
+    height: 1220px;
+}
+h1 {
+    color: #fff;
+}
+video {
+    margin-bottom: 71px;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+.logoblock {
+    display: inline-flex;
+}
+#s, #c {
+    padding: 0 0 0 10px;
+}
+#borderone, #bordertwo {
+    border-right: 1px solid #b99403;
+    padding: 9px 20px 9px 9px;
+}
+#borderthree, #borderone, #bordertwo {
+    display: inline-flex;
+    text-decoration: none;
+    padding: 9px;
+}
+.wrappertop {
+    width: 1300px;
+    background: url("./assets/img/header.png");
+    background-size: cover;
+}
+.wrappercenter {
+    width: 1300px;
+    height: 1212px;
+    background-color: #f3f3f3;
+}
+.main-block-main {
+    width: 1300px;
+    height: 509px;
+    background-image: url("./assets/img/chess.png");
+}
+.nav-block-main {
+    box-shadow: 0px -2px 5px 2px #5B5518;
+    background-image: url("./assets/img/layerw.png")
+}
+.nav-block-main ul li {
+    display: block;
+}
+.nav-block-main ul div a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.675);
+    font-size: 23.04912pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-block-main ul div a:hover {
+    color: black;
+    font-size: 28.04912pt;
+}
+.nav-block-main ul {
+    display: flex;
+    padding-left: 0;
+    margin: 0px;
+}
+#shortl {
+    margin-top: 60px;
+}
+#shortr {
+    margin-top: 50px;
+}
+#longc {
+    margin-top: 35px;
+    position: relative;
+    margin-bottom: 5px;
+}
+#centermt {
+    margin: 0px;
+}
+#leftmt {
+    margin: 0 0 0 auto;
+    border-left: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+}
+#raightmt {
+    margin: 0 auto 0 0;
+    border-left: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+}
+.nav-block-main ul div {
+    display:block;
+    width:342px;
+    height:214px;
+    margin:0px auto;
+    text-align: center;
+}
+.twice {
+    font-family: 'Asap';
+    width: 392px;
+    height: 121px;
+    color: white;
+    text-align: center;
+    font-size: 42.04912pt;
+}
+.yellow {
+    color: rgba(245, 197, 6, 255);
+    
+}
+.vandt {
+    white-space: pre-line;
+    display: inline-flex;
+}
+#h-one {
+    font-family: 'PT Sans';
+    font-size: 28.04912pt;
+    color: rgba(255, 255, 255, 255);
+    margin: 33px auto 33px 140px;
+    display: inline-block;
+}
+.spanone, .spantwo, .spanthree {
+    color: rgba(255, 255, 255, 255);
+    font-family: 'Segoe WP';
+    display: inline-block;
+    font-size: 18.04912pt;
+}
+.container-text {
+    width: 341px;
+    height: 233px;
+    background-color: #ec9e03;
+    margin: 0px 0px 0px 140px;
+}
+.container-twitter {
+    width: 329px;
+    height: 233px;
+    background-color: #ec9e03;
+    margin-left: 40px;
+    direction: rtl;
+}
+.c-text {
+    width: 272px;
+    height: 174px;
+    font-size: 22.04912pt;
+    margin: 17px 8px 24px 26px;
+    color: rgba(255, 255, 255, 255);
+    font-family: 'Segoe WP';
+    display: inline-block;
+    font-size: 22.04912pt;
+}
+.spantwo {
+    display: block;
+    margin: 12px 20px 0px 0px;
+}
+.spanthree {
+    display: block;
+    margin-right: 13px;
+}
+.c-twitter {
+    margin: 18px 15px -17px 15px;
+    text-align: center;
+}
+.date {
+    width: 113px;
+    height: 86px;
+    background-color: #ddb101;
+    margin: 0px 0px 0px 140px;
+    position: relative;
+}
+#twenty-five {
+    font-size: 36.04912pt;
+    color: rgba(255, 255, 255, 255);
+    font-family: 'Segoe UII';
+    text-align: center;
+}
+#april {
+    font-size: 15.04912pt;
+    color: rgba(178, 101, 41, 255);
+    font-family: 'Segoe UI';
+    position: absolute;
+    top: 53px;
+    left: 32px;
+}
+.play {
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    background-color: #c5a509;
+    position: relative;
+    bottom: 142px;
+    left: 359px;
+    opacity: 0.75;
+}
+.play:hover {
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    background-color: #806b05be;
+    position: relative;
+    bottom: 142px;
+    left: 359px;
+    opacity: 0.75;
+    border: 2px solid #2c2503be;
+}
+.line-main {
+    width: 896px;
+    height: 15px;
+    background-color: #f9e282;
+    border-radius: 15px;
+    margin: 40px auto 20px auto;
+}
+#play {
+    margin: 25% 40%;
+}
+#movie-two {
+    margin: 0px;
+}
+.flex-hor {
+    display: flex;
+}
+.flex-two {
+    display: flex;
+}
+#btn-c {
+    width: 197px;
+    height: 15px;
+    position: relative;
+    border-radius: 15px;
+    bottom: 1px;
+    left: 250px;
+    background-color: #ec9e03;
+    border: 1px solid #c58505cb;
+}
+#btn-c:hover {
+    width: 200px;
+    height: 16px;
+    position: relative;
+    border-radius: 16px;
+    bottom: 1px;
+    left: 250px;
+    background-color: #9465089f;
+    border: 1px solid #553901;
+}
+.bigh1 {
+    font-family: 'PT Sans';
+    font-size: 35.04912pt;
+    color: rgba(245, 197, 6, 255);
+    text-align: center;
+    display: block;
+    padding: 40px 40px 0px 40px;
+}
+.free {
+    width: 116px;
+    height: 116px;
+    background-color: #f5c506;
+    border-radius: 50%;
+    font-family: 'PT Sans Narrow';
+    color: rgba(255, 255, 255, 255);
+    margin: 4px auto 0px 140px;
+    position: absolute;
+    font-size: 15.04912pt;
+    text-align: center;
+}
+.listf {
+    display: inline-block;
+    width: 418px;
+    height: 255px;
+}
+.listf ul {
+    color: #f5c506;
+    font-size: xx-large;
+    margin: 0px 0px 0px 90px;
+    padding: 0px;
+}
+.thesame {
+    font-family: 'PT Sans', OpenSans;
+    font-size: 16pt;
+    color: rgba(169, 169, 167, 255);
+}
+.thesametwice {
+    font-family: 'Open Sans';
+    font-size: 15pt;
+    color: rgba(169, 169, 167, 255);
+}
+.fmain {
+    background-image: url("assets/img/maingrey.png");
+    width: 1300px;
+    height: 500px;
+}
+#desktop {
+    margin: 46px 10px 0px 160px;
+}
+#tablet, #mobile {
+    margin: 0px 10px 40px 10px;
+}
+#oneh {
+    display: inline-block;
+    margin: 45px 0px 45px 0px;
+}
+.footerblock {
+    width: 1300px;
+    height: 65px;
+    background-color: #4c4c4c;
+    box-shadow: 0px -2px 5px 0px #161608;
+}
+.flogo-one {
+    position: absolute;
+    margin: 5px 0px auto 140px;
+}
+.flogo-two {
+    margin: 5px 0px auto 140px;
+}
+.f-the {
+    font-family: 'Lucida Sans';
+    font-size: 21.08912pt;
+    color: rgba(255, 255, 255, 255);
+    position: relative;
+    bottom: 17px;
+    text-shadow: 1px 2px 2px black;
+}
+@font-face {
+    font-family: 'PT Sans';
+    src: url('assets/fonts/ptsans/PTSans-Regular.eot');
+    src: url('assets/fonts/ptsans/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/ptsans/PTSans-Regular.woff2') format('woff2'),
+    url('assets/fonts/ptsans/PTSans-Regular.woff') format('woff'),
+    url('assets/fonts/ptsans/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('assets/fonts/ptsans/PTSans-NarrowBold.eot');
+    src: url('assets/fonts/ptsans/PTSans-NarrowBold.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/ptsans/PTSans-NarrowBold.woff2') format('woff2'),
+    url('assets/fonts/ptsans/PTSans-NarrowBold.woff') format('woff'),
+    url('assets/fonts/ptsans/PTSans-NarrowBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'),
+    url('assets/fonts/open-sans/opensans.woff2') format('woff2'),
+    url('assets/fonts/open-sans/opensans.woff') format('woff'),
+    url('assets/fonts/open-sans/opensans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Asap';
+    src: url('assets/fonts/Asap-Regular.eot');
+    src: url('assets/fonts/Asap-Regular.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Asap-Regular.woff2') format('woff2'),
+    url('assets/fonts/Asap-Regular.woff') format('woff'),
+    url('assets/fonts/Asap-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .left-botton {
+      width: 32px;
+      height: 55px;
+      position: absolute;
+      background-color: #c9a40e;
+      top: 299px;
+      text-align: center;
+      
+  }
+  .right-botton {
+    width: 32px;
+    height: 55px;
+    position: absolute;
+    background-color: #f5c506;
+    top: 299px;
+    left: 1276px;
+    text-align: center;
+    
+  }
+  #img--right {
+    margin-top: 16px;
+  }
+  #img--left {
+    margin-top: 16px;
+  }
+
+
+
+
+  #twoa {
+    cursor: pointer;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: fit-content;
+    text-align: center;
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    bottom: 0;
+    bottom: 15%;
+    left: 0;
+    left: 80%;
+    font-size: 30px;
+    font-family: 'Asap';
+
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+  }
+  #twob {
+    cursor: pointer;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: fit-content;
+    text-align: center;
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    bottom: 0;
+    bottom: 5%;
+    left: 0;
+    left: 80%;
+    font-size: 30px;
+    font-family: 'Asap';
+
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+  }

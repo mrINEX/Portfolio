@@ -1,0 +1,237 @@
+body {
+    font-family: 'Asap';
+    min-width: 400px;
+}
+h2 {
+    max-width: 90%;
+    margin: 30px auto 20px auto;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header {
+    justify-content: center;
+    display: flex;
+    margin:  5%;
+}
+#myphoto {
+    margin: auto 20px auto 20px;
+    width: 10em;
+    border-radius: 50%;
+    border: 2px solid #095350;
+}
+#top {
+    text-decoration: none;
+    color: black;
+}
+#top:hover {
+    color: #095350;
+}
+
+.titleValue{ color: #095350; }  
+
+div.panel{
+    max-width: 90%;
+    margin: auto;
+}
+
+details{
+    background:#fff;
+    font-size:16px;
+    border-bottom:1px solid #e0e0e0;
+      box-shadow:0 0 2px rgba(0,0,0,0.12),0 2px 4px rgba(0,0,0,0.24);
+    display:flex; }
+
+details div.content{
+    padding: 10px 24px 24px 24px;
+}
+
+details[open] summary:after {
+    position: absolute;
+    top: calc(50% - 12px);
+    color:#9e9e9e;
+    content: "-";
+    right: 0;
+    margin: 0px 15px;
+    font-weight: bold;
+    font-size: large;
+}
+
+summary{
+    outline:none;
+    cursor: pointer;
+    padding: 16px 24px;
+    color:#212121;
+    position: relative;
+}
+summary:hover{
+    background:#eeeeee;
+}
+
+details[open] summary:hover{
+    background:none;
+}
+summary ul {
+    padding-left: 0;
+    list-style: none;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+summary ul li{
+     flex: 1 100%;
+     flex-flow: row wrap;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+summary::after {
+    position: absolute;
+    top: calc(50% - 12px);
+    content: "+";
+    color: #9e9e9e;
+    right: 0;
+    margin: 0px 15px;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+/* Слайдер */
+.slider{
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+    height: 300px;
+    margin-bottom: 15px;
+
+    background-color: #eeeeee;
+    overflow: hidden;
+    box-shadow:0 0 2px rgba(0,0,0,0.12),0 2px 4px rgba(0,0,0,0.24);
+}
+
+/* Картинка масштабируется по отношению к родительскому элементу */
+.slider .item img {
+    object-fit: cover;
+    width: 50%;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    /* color: rgb(0, 0, 0); */
+    font-weight: bold;
+    font-size: 28px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.into {
+    cursor: pointer;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 20%;
+    bottom: 25%;
+    width: 80px;
+    font-size: 70%;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: rgba(5, 5, 5, 0.8);
+}
+
+/* Заголовок слайда */
+.slideText {
+    position: absolute;
+    color: rgb(14, 12, 3);
+    font-size: 100%;
+    /* Выравнивание текста по горизонтали и по вертикали*/
+    left: 25%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    /* Тень*/
+    text-shadow: 1px 1px 10px rgb(12, 11, 11), 0 0 1em rgb(244, 247, 245);
+}
+.slideText ul {
+    font-size: 70%;
+    text-shadow: none;
+    margin: 10px;
+}
+
+/* Кружочки */
+.slider-dots {
+    text-align: center;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
+}
+
+
+/* Анимация слайдов */
+.slider .item {
+    text-align: right;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+@font-face {
+    font-family: 'Asap';
+    src: url('fonts/Asap-Regular.eot');
+    src: url('fonts/Asap-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Asap-Regular.woff2') format('woff2'),
+    url('fonts/Asap-Regular.woff') format('woff'),
+    url('fonts/Asap-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

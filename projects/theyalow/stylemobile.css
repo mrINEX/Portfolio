@@ -1,0 +1,420 @@
+@font-face {
+    font-family: 'Lucida Sans';
+    src: url('assets/fonts/LucidaSans-Italic.eot');
+    src: url('assets/fonts/LucidaSans-Italic.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/LucidaSans-Italic.woff2') format('woff2'),
+    url('assets/fonts/LucidaSans-Italic.woff') format('woff'),
+    url('assets/fonts/LucidaSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Segoe WP';
+    src: url('assets/fonts/SegoeWP.eot');
+    src: url('assets/fonts/SegoeWP.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeWP.woff2') format('woff2'),
+    url('assets/fonts/SegoeWP.woff') format('woff'),
+    url('assets/fonts/SegoeWP.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    width: 100%;
+    margin: 0px;
+}
+#asc {
+    font-family: 'Segoe WP';
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#onelink, #twolink, #threelink {
+    text-decoration: none;
+    color: rgba(155, 125, 8, 255);
+    font-size: 13.04912pt;
+}
+
+#onelink:hover, #twolink:hover, #threelink:hover {
+    text-decoration: none;
+    color: rgba(0, 17, 13, 0.801);
+    font-size: 13.04912pt;
+    font-weight: bold;
+}
+
+.size {
+    display: inline-flex;
+}
+#au, #s, #c {
+    margin: 22px 0px 20px 15px;
+}
+#borderone, #bordertwo, #borderthree {
+    margin: 18px 10px;
+}
+#ss {
+    border-left: 1px solid #b9940391;
+}
+#cc {
+    border-left: 1px solid #b9940391;
+}
+#auau {
+    padding-left: 12px;
+}
+.nav {
+    width: 640px;
+    height: 62px;
+    display: inline-flex;
+}
+.logo-block {
+    width: 186px;
+    height: 62px;
+    background-color: #464646;
+    display: inline-flex;
+}
+.nav-block {
+    width: 455px;
+    height: 62px;
+    background-color: #f3c306;
+}
+.the {
+    font-family: 'Lucida Sans';
+    font-size: 14.04912pt;
+    color: rgba(255, 255, 255, 255);
+    display: block;
+    margin: 21px 0px;
+    text-shadow: 1px 2px 2px black;
+}
+.imgone {
+    margin: 12px;
+    position: absolute;
+}
+.imgtwo {
+    margin: 12px;
+}
+.second-main {
+    width: 640px;
+    height: 166px;
+    background-image: url("./assets/img/layermobile.png");
+}
+.second-main-copy {
+    width: 640px;
+    height: 166px;
+    background-image: url("./assets/img/layermobile.png");
+    position: absolute;
+    top: 385px;
+}
+.second-main-copy-again {
+    width: 640px;
+    height: 166px;
+    background-image: url("./assets/img/layermobile.png");
+    position: absolute;
+    top: 380px;
+}
+.second-main ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+#leftmt {
+    margin: 0 0 0 auto;
+}
+#raightmt {
+    margin: 0 auto 0 0;
+}
+#leftmt, #shortl, #centermt, #longc, #raightmt, #shortr {
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+}
+#link {
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 18.04912pt;
+    color: rgba(0, 0, 0, 255);
+}
+#link:hover {
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 18.04912pt;
+    color: rgba(24, 3, 3, 0.863);
+    font-weight: bold
+}
+#leftmt, #centermt, #raightmt {
+    width: 207px;
+    height: 170px;
+    margin-top: 26px;
+
+}
+.text-div {
+    width: 299px;
+    height: 233px;
+    background-color: #ec9e03;
+    font-family: 'Segoe WPL';
+    color: white;
+    font-size: 21.04912pt;
+    text-align: left;
+    margin: 10px 5px 10px 10px;
+}
+.c-text {
+    width: 235;
+    height: 189px;
+    font-family: 'Segoe WPL';
+    margin: 1px 40px 0px 21px;
+}
+.play-absolute {
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    background-color: #bb9904e0;
+    position: absolute;
+    left: 442px;
+    top: 665px;
+    text-align: center;
+}
+#play {
+    margin: 15px auto 15px auto;
+}
+.twitter-line {
+    width: 640px;
+    height: 233px;
+    background-color: #f5c507;
+    display: inline-flex;
+}
+.twitter-logo {
+    width: 324px;
+    height: 233px;
+}
+.twitter-mess {
+    width: 323px;
+    height: 233px;
+    display: inline-grid;
+    align-content: space-evenly;
+    font-family: 'Arial';
+    
+}
+.messnot, .mess {
+    width: 284px;
+    height: 42px;
+    font-size: 11.04912pt;
+    color: rgba(143, 142, 142, 255);
+    text-align: left;   
+}
+.messnot {
+    background-image: url("./assets/img/twit-not.png")
+}
+.mess {
+    background-image: url("./assets/img/twit-opas.png")
+}
+.twitter-mess div span {
+    padding: 7px 28px 6px 29px;
+    display: block;
+    font-size: 10.04912pt;
+}
+.wrapper-second {
+    display: flex;
+}
+#movie-two {
+    margin: 10px 10px 10px 5px;
+}
+.spanone {
+    padding-left: 260px;
+}
+#twitter {
+    margin: 60px 80px 40px 80px;
+}
+input[type=submit] {
+    background: linear-gradient(#e9a725, #d08f0c);
+
+    background-color: #de9d1b;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top: 1px solid #d0a806;
+    border-right: 1px solid #d0a806;
+    border-bottom: 1px solid #d0a806;
+    border-left: 1px solid rgb(197, 195, 84);
+    font-family: 'Arial';
+}
+input[type=text] {
+    width: 200px;
+    height: 28px;
+    background-color: white;
+    border-left: 1px solid #d0a806;
+    border-top: 1px solid #d0a806;
+    border-bottom: 1px solid #d0a806;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background: radial-gradient(#ffffff, #e6e6e6);
+}
+.tweet-m {
+    margin-left: 10px;
+}
+.fmain {
+    width: 640px;
+    height: 465px;
+    background-color: #474747;
+    margin-top: -4px;
+}
+.bigh1 {
+    font-family: 'Open Sans';
+    font-size: 30.04912pt;
+    color: rgba(245, 197, 6, 255);
+    text-align: center;
+    display: block;
+    padding: 30px 0px 30px 0px;
+}
+.free {
+    width: 116px;
+    height: 116px;
+    background-color: #f5c506;
+    border-radius: 50%;
+    font-family: 'PT Sans Narrow';
+    color: rgba(255, 255, 255, 255);
+    margin: 4px auto 0px 27px;
+    position: absolute;
+    font-size: 15.04912pt;
+    text-align: center;
+}
+#oneh {
+    display: inline-block;
+    margin: 45px 0px 45px 0px;
+}
+#desktop {
+    margin: 46px 10px 0px 57px;
+}
+#tablet, #mobile {
+    margin: 0px 10px 40px 10px;
+}
+.footer {
+    width: 640px;
+    height: 42px;
+    background-color: #4c4c4c;
+    box-shadow: 0px -2px 5px 0px #161608;
+}
+.flogo-one {
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    margin: 7px 0px 7px 66px;
+}
+.flogo-two {
+    width: 29px;
+    height: 29px;
+    margin: 7px 0px 7px 66px;
+}
+.f-the {
+    font-family: 'Lucida Sans';
+    font-size: 13.08912pt;
+    color: rgba(255, 255, 255, 255);
+    position: relative;
+    bottom: 15px;
+    text-shadow: 1px 2px 2px black;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI-Light.eot');
+    src: url('assets/fonts/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeUI-Light.woff2') format('woff2'),
+    url('assets/fonts/SegoeUI-Light.woff') format('woff'),
+    url('assets/fonts/SegoeUI-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Segoe WPL';
+    src: url('assets/fonts/SegoeWP-Light.eot');
+    src: url('assets/fonts/SegoeWP-Light.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeWP-Light.woff2') format('woff2'),
+    url('assets/fonts/SegoeWP-Light.woff') format('woff'),
+    url('assets/fonts/SegoeWP-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+      font-family: 'Arial';
+      src: url("./assets/fonts/arial.ttf")
+  }
+  @font-face {
+    font-family: 'PT Sans';
+    src: url('assets/fonts/ptsans/PTSans-Regular.eot');
+    src: url('assets/fonts/ptsans/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/ptsans/PTSans-Regular.woff2') format('woff2'),
+    url('assets/fonts/ptsans/PTSans-Regular.woff') format('woff'),
+    url('assets/fonts/ptsans/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('assets/fonts/ptsans/PTSans-NarrowBold.eot');
+    src: url('assets/fonts/ptsans/PTSans-NarrowBold.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/ptsans/PTSans-NarrowBold.woff2') format('woff2'),
+    url('assets/fonts/ptsans/PTSans-NarrowBold.woff') format('woff'),
+    url('assets/fonts/ptsans/PTSans-NarrowBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'),
+    url('assets/fonts/open-sans/opensans.woff2') format('woff2'),
+    url('assets/fonts/open-sans/opensans.woff') format('woff'),
+    url('assets/fonts/open-sans/opensans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Asap';
+    src: url('assets/fonts/Asap-Regular.eot');
+    src: url('assets/fonts/Asap-Regular.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Asap-Regular.woff2') format('woff2'),
+    url('assets/fonts/Asap-Regular.woff') format('woff'),
+    url('assets/fonts/Asap-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+
+
+
+  #twoa {
+    cursor: pointer;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: fit-content;
+    text-align: center;
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    bottom: 0;
+    bottom: 15%;
+    left: 0;
+    left: 80%;
+    font-size: 30px;
+    font-family: 'Asap';
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+  }
+  #twob {
+    cursor: pointer;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: fit-content;
+    text-align: center;
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    bottom: 0;
+    bottom: 5%;
+    left: 0;
+    left: 80%;
+    font-size: 30px;
+    font-family: 'Asap';
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+  }
